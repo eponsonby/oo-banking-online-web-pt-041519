@@ -9,6 +9,7 @@
 # they can be executed and go to complete status
 # or rejected
 # a completed transfer can also be reversed
+require 'pry'
 class Transfer
     attr_reader :sender, :receiver
     attr_accessor :status, :amount
